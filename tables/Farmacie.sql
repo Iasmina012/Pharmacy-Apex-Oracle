@@ -1,0 +1,9 @@
+CREATE TABLE Farmacie (
+  ID_Farmacie INTEGER PRIMARY KEY NOT NULL,
+  Nume_Farmacie VARCHAR(30) NOT NULL,
+  Adresa VARCHAR(50) NOT NULL,
+  Telefon VARCHAR(10) NOT NULL,
+  Email VARCHAR(50) NOT NULL,
+  ID_Card INTEGER,
+  FOREIGN KEY (ID_Card) REFERENCES Card_Fidelitate(ID_Card)
+);

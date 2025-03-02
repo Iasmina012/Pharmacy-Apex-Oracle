@@ -1,0 +1,9 @@
+CREATE TABLE Client (
+  ID_Client INTEGER PRIMARY KEY NOT NULL,
+  Nume_Client VARCHAR(30) NOT NULL,
+  Adresa VARCHAR (50),
+  Telefon VARCHAR(10) NOT NULL,
+  Email VARCHAR (50),
+  ID_Card INTEGER,
+  FOREIGN KEY (ID_Card) REFERENCES Card_Fidelitate (ID_Card)
+);
