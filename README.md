@@ -1,5 +1,5 @@
 # Pharmacy-Apex-Oracle
-
+did it work?
 ## Project Overview
 
 This project represents a relational database designed for pharmacy management, optimizing order processing, inventory tracking, and customer interactions. By eliminating redundancies and ensuring data integrity, the system provides a flexible and user-friendly structure built on well-defined tables, SQL views, and procedures. This project lays the groundwork for future enhancements, such as process automation and advanced functionalities.
